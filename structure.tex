@@ -80,9 +80,10 @@
 % Chapter text styling
 \titlecontents{chapter}[1.25cm] % Indentation
 {\addvspace{12pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
+% {\color{ocre!60}\contentslabel[\Large\thecontentslabel]{2.25cm}\color{ocre}} % Chapter number control the space index and name
+{\color{ocre!90}\contentslabel[\Large\thecontentslabel]{2.25cm}\color{ocre}} % Chapter number control the space index and name
 {\color{ocre}}
-{\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+{\color{ocre!70}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 
 % Section text styling
 \titlecontents{section}[1.25cm] % Indentation
@@ -135,7 +136,7 @@
 {}
 
 % Subsection text styling
-\titlecontents{lsubsection}[.5em] % Indentation
+\titlecontents{lsubsection}[5.5em] % Indentation
 {\normalfont\footnotesize\sffamily} % Font settings
 {}
 {}
@@ -489,3 +490,8 @@ addtohook={%
 \fi
 }
 }
+
+\makeatletter
+\providecommand*{\input@path}{}
+\g@addto@macro\input@path{{dir-tex/}}% append
+\makeatother
