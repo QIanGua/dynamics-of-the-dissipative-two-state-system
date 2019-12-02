@@ -1,0 +1,6 @@
+PWD /Users/wangqianlong/Code/LaTeX/dynamics-of-the-dissipative-two-state-system/dir-tex
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
+INPUT introduction.tex
+OUTPUT introduction.log

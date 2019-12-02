@@ -1,36 +1,36 @@
-%\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+% \documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
 \documentclass[11pt,fleqn]{ctexbook} % Default font size and left-justified equations
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	TITLE PAGE
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 \begingroup
 \thispagestyle{empty}
 \begin{tikzpicture}[remember picture,overlay]
-\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
-\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]
-{
-\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}
- {\centering
-耗散二态系统动力学\\[30pt] % Book title
-% 文心雕龍\\[20pt] % Subtitle
-{\huge A. J. Leggett\\
-S. Chakravarty}
- }
-}; % Author name
+  \node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
+  \draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]
+  {
+    \Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}
+    {\centering
+      耗散二态系统动力学\\[30pt] % Book title
+      % 文心雕龍\\[20pt] % Subtitle
+      {\huge A. J. Leggett\\
+        S. Chakravarty}
+    }
+  }; % Author name
 \end{tikzpicture}
 \vfill
 \endgroup
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	COPYRIGHT PAGE
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 % \newpage
 % ~\vfill
@@ -46,11 +46,11 @@ S. Chakravarty}
 
 % \noindent \textit{First printing, March 2017} % Printing/edition date
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
-%\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+% \usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
 
 \chapterimage{chapter_head_1.pdf} % Table of contents heading image
 
@@ -62,27 +62,27 @@ S. Chakravarty}
 
 \pagestyle{fancy} % Print headers again
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	PART
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 % \part{Part One}
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	CHAPTER 1
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 % \chapterimage{chapter_head_2.pdf} % Chapter heading image
 
-%\chapter{Text Chapter}
+% \chapter{Text Chapter}
 \chapter{简介}
 
 \input{introduction}
 
 % \part{Part Two}
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	CHAPTER 2
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 % \chapterimage{chapter_head_1.pdf} % Chapter heading image
 
@@ -92,41 +92,37 @@ S. Chakravarty}
 
 % \part{Part Three}
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	CHAPTER 3
-%----------------------------------------------------------------------------------------
-
-
+% ----------------------------------------------------------------------------------------
 
 % \chapter{ 第三部}
 
-
 % \input{sec3}
 
-
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 % \chapter*{Bibliography}
 % \addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}}
 
-%------------------------------------------------
+% ------------------------------------------------
 
 % \section*{Articles}
 % \addcontentsline{toc}{section}{Articles}
 % \printbibliography[heading=bibempty,type=article]
 
-%------------------------------------------------
+% ------------------------------------------------
 
 % \section*{Books}
 % \addcontentsline{toc}{section}{Books}
 
 % \printbibliography[heading=bibempty,type=book]
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	INDEX
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
 % \cleardoublepage
 % \phantomsection
@@ -134,6 +130,11 @@ S. Chakravarty}
 % \addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
 % \printindex
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 
-\end{document}
+\ene{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

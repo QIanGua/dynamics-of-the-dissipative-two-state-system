@@ -1,0 +1,27 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.5)  2 DEC 2019 17:36
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**introduction.tex
+(./introduction.tex
+LaTeX2e <2018-12-01>
+
+./introduction.tex:2: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 在
+     物理和化学领域，对于状态被限制在二维希尔伯特空间的量子系统问题是很普遍的。在最简单的例子中，系统只处理一个有两个值的自由度──例如自旋$1/2$原 
+Here is how much of TeX's memory you used:
+ 5 strings out of 492916
+ 195 string characters out of 6133345
+ 64431 words of memory out of 5000000
+ 4159 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 5i,0n,4p,93b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
